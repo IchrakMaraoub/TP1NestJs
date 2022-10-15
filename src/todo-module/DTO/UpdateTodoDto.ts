@@ -3,4 +3,7 @@ import { TodoDto } from './TodoDto';
 export class UpdateTodoDto extends PickType (TodoDto, ['name'])   {
     
     NbDePage:number;
+    description: String;
+    status: String;
+    
 }
